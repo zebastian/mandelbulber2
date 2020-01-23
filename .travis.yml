@@ -22,7 +22,7 @@ install:
   - if [ "${TRAVIS_OS_NAME}" = "linux" ]; then
       sudo apt-get -qq update
       && sudo apt-get install -y mesa-common-dev libgl1-mesa-dev
-      && sudo apt-get install -y qtbase5-dev qt5-default libqt5multimedia5
+      && sudo apt-get install -y qtbase5-dev qt5-default libqt5multimedia5 libqt5designer5 qttools5-dev
       && sudo apt-get install -y libpng-dev libgsl-dev libgsl-dbg libgomp1 liblzo2-2 liblzo2-dev
       && sudo apt-get install -y libtiff5
       && sudo apt-get install -y libsndfile1-dev tree
