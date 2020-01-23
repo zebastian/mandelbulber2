@@ -2,11 +2,16 @@
 # https://docs.travis-ci.com/user/customizing-the-build/
 sudo: required
 
+dist: bionic
+
 language: cpp
 
 os:
-  - linux arch: arm64 dist: bionic
+  - linux
   - osx
+
+arch:
+  - arm64
 
 env:
   matrix:
