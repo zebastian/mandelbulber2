@@ -1,12 +1,11 @@
 # Travis build configuration
 # https://docs.travis-ci.com/user/customizing-the-build/
 sudo: required
-dist: trusty
 
 language: cpp
 
 os:
-  - linux
+  - linux arch: arm64 dist: bionic
   - osx
 
 env:
