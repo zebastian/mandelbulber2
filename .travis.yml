@@ -1,4 +1,4 @@
-# Travis build configuration
+# Travis build configuration January 2020
 # https://docs.travis-ci.com/user/customizing-the-build/
 sudo: required
 
