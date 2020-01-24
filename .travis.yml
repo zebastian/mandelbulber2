@@ -6,6 +6,8 @@ dist: bionic
 
 language: cpp
 
+cache: ccache
+
 os:
   - linux
   - osx
