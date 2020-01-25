@@ -35,6 +35,8 @@ install:
     else
          brew update > /dev/null
       && brew install qt5 gsl llvm lzo libsndfile tree
+      && brew install ccache
+      && export PATH="/usr/local/opt/ccache/libexec:$PATH"
       && export CC=/usr/local/opt/llvm/bin/clang
       && export CXX=/usr/local/opt/llvm/bin/clang++
       && export LDFLAGS="-L/usr/local/opt/llvm/lib $LDFLAGS"
